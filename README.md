@@ -19,7 +19,7 @@ Abstract Fabrique is a powerful and flexible Java library for creating abstract 
 
 ## Each module leads
 
-<a src="https://github.com/dindin28/JavaLab3/blob/main/resources/UML.jpg"></a>
+![UML diagram]([/path/to/image.png](https://github.com/dindin28/JavaLab3/blob/main/resources/UML.jpg))
 
 ## Getting Started
 

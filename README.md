@@ -17,15 +17,14 @@ Abstract Fabrique is a powerful and flexible Java library for creating abstract 
 
 - **Open Source**: Abstract Fabrique is open source and available under the MIT License, allowing for flexibility and collaboration.
 
+## Each module leads
+
+<a src="https://github.com/dindin28/JavaLab3/blob/main/resources/UML.jpg"></a>
+
 ## Getting Started
 
-### Installation
-
-To use Abstract Fabrique in your Java project, add the following dependency to your `pom.xml` (Maven):
-
-```xml
-<dependency>
-    <groupId>com.example</groupId>
-    <artifactId>abstract-fabrique</artifactId>
-    <version>1.0.0</version>
-</dependency>
+Run
+```bash
+mvn package
+./run_main.sh
+```

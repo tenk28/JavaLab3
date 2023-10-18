@@ -19,8 +19,10 @@ public class Client
         do {
             System.out.println("1) Create white factory");
             System.out.println("2) Create black factory");
+            System.out.println("3) Create white factory via static getFactory");
+            System.out.println("4) Create black factory via static getFactory");
             System.out.println("0) Exit app");
-            System.out.print("Enter number (1,2,0): ");
+            System.out.print("Enter number (1,2,3,4,0): ");
             Scanner s = new Scanner(System.in);
 
             ch = s.nextLine().charAt(0);
@@ -30,6 +32,12 @@ public class Client
                     break;
                 case '2':
                     createFactory(new BlackFactory());
+                    break;
+                case '3':
+                    createFactory(AbstractFactory.getFactory(AbstractFactory.Colors.WHITE));
+                    break;
+                case '4':
+                    createFactory(AbstractFactory.getFactory(AbstractFactory.Colors.BLACK));
                     break;
                 case '0':
                     break;

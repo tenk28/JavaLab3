@@ -5,7 +5,7 @@ import circles.Circle;
 import triangles.BlackTriangle;
 import triangles.Triangle;
 
-public class BlackFactory implements AbstractFactory {
+public class BlackFactory extends AbstractFactory {
     @Override
     public Circle createCircle()
     {
